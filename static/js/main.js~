@@ -31,7 +31,6 @@ $(function() {
 				alert("Invalid value.  Please use the autocomplete feature\n")
 				return
 			}
-			$("#stocktable").show()
 			var ticker = inputval.split(" ")[0]
 			$.ajax({
 				url:"/query/"+ticker
