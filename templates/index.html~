@@ -59,7 +59,7 @@
 		<div class="input-group">
 			<span class="input-group-addon">
 				<form>
-					<input type="radio" name="type" id = "NASDAQ" checked="true"> NASDAQ</input>
+					<input type="radio" name="type" id = "NASDAQ"> NASDAQ</input>
 					<input type="radio" name ="type" id = "LSE"> LSE</input>
 					<input type="radio" name = "type" id = "NYSE"> NYSE</input>
 				</form>
