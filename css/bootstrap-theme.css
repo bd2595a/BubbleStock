@@ -4,6 +4,15 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+.stockTicker
+{
+ float: left; width:33%;
+}
+.stockInfo
+{
+
+}
+
 .btn-default,
 .btn-primary,
 .btn-success,
