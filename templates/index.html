@@ -34,14 +34,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="{{ url_for('static', filename='js/companynames.js') }}"></script>
-    <script>
-		  $(function() {
-		    
-		    $( "#tags" ).autocomplete({
-		      source: availableTags
-		    });
-		  });
-		</script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
   </head>
 
   <body>
